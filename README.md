@@ -1,4 +1,4 @@
-# Unimolecule AI Skills
+# Unimolecule AI
 
 [![skills.sh](https://skills.sh/b/unimolecule-org/ai)](https://www.skills.sh/unimolecule-org/ai)
 
