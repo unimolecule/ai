@@ -1,6 +1,6 @@
 # Unimolecule AI
 
-[![skills.sh](https://skills.sh/b/unimolecule-org/ai)](https://www.skills.sh/unimolecule-org/ai)
+[![skills.sh](https://skills.sh/b/unimolecule/ai)](https://skills.sh/unimolecule/ai)
 
 This repository contains Codex skills maintained by Unimolecule. The current focus is project documentation skills under `packages/skills/**`.
 
