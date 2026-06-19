@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project README Writer"
+  short_description: "Write README files for projects and monorepos"
+  default_prompt: "Use $project-readme-writer to inspect this repository and write a README that fits its project shape."
