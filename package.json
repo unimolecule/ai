@@ -1,0 +1,43 @@
+{
+  "name": "@unimolecule/ai",
+  "type": "module",
+  "private": true,
+  "author": "i7eo",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "simple-git-hooks",
+    "lint": "pnpm -F \"*\" lint",
+    "clean": "run-s \"clean:**\"",
+    "clean:workspace": "pnpm -F \"*\" clean",
+    "clean:cache": "rimraf pnpm-lock.yaml && rimraf node_modules",
+    "commit": "czg",
+    "upgrade:pkgs": "pnpm update -r --interactive --latest"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "catalog:dx",
+    "@commitlint/config-conventional": "catalog:dx",
+    "@commitlint/types": "catalog:dx",
+    "@manypkg/get-packages": "catalog:dx",
+    "@types/node": "catalog:",
+    "@unconfig/ts-config-latest": "catalog:dx",
+    "czg": "catalog:dx",
+    "lint-staged": "catalog:dx",
+    "npm-run-all2": "catalog:",
+    "prettier": "catalog:dx",
+    "rimraf": "catalog:",
+    "simple-git-hooks": "catalog:dx",
+    "tsx": "catalog:dx",
+    "typescript": "catalog:"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "lint-staged --concurrent false",
+    "commit-msg": "commitlint --edit $1"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": ">=11.0.0",
+      "onFail": "download"
+    }
+  }
+}
