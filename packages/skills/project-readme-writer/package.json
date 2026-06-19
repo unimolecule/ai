@@ -2,7 +2,20 @@
   "name": "@unimolecule/ai-project-readme-writer-skill",
   "type": "module",
   "version": "0.0.0",
+  "keywords": [
+    "project readme writer",
+    "project readme writer skill"
+  ],
+  "homepage": "https://github.com/unimolecule/ai/blob/main/packages/skills/project-readme-writer#readme",
+   "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unimolecule/ai.git",
+    "directory": "packages/skills/project-readme-writer"
+  },
+  "bugs": {
+    "url": "https://github.com/unimolecule/ai/issues"
+  },
   "private": true,
-  "author": "i7eo",
+  "author": "i7eo <admin@i7eo.com> (https://github.com/i7eo)",
   "license": "MIT"
 }
